@@ -1,20 +1,17 @@
 <article>
   <h2><%= @title.capitalize %></h2>
   <h3>Freelance:</h3>
-  <div>
-    <h4>Viarezo</h4>
-  </div>
-  <div>
-    <h4>Skullslab</h4>
-  </div>
-  <div>
-    <h4>Elhu.me</h4>
+  <div class="accordion">
+    <h4><%= link_to "Viarezo", "#" %></h4>
+    <div><%= link_to image_tag("/images/viarezo.png", :class => "portfolio"), "http://www.viarezo.com", :target => "_blank" %></div>
+    <h4><%= link_to "Skullslab", "#" %></h4>
+    <div><%= link_to image_tag("/images/skullslab.png", :class => "portfolio"), "http://severe-mist-814.heroku.com/", :target => "_blank" %></div>
+    <h4><%= link_to "Elhu.me", "#" %></h4>
+    <div><%= link_to image_tag("/images/elhu.me.png", :class => "portfolio"), root_path, :target => "_blank" %></div>
   </div>
   <h3>Other:</h3>
-  <div>
+  <div class="accordion">
     <h4>OpenAuthenticator</h4>
-  </div>
-  <div>
     <h4>Admin thingy</h4>
   </div>
 </article>

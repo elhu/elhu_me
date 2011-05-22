@@ -172,6 +172,13 @@ color: #aaa;
 
 /** ARTICLES **/
 
+.portfolio {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+
 article {
 margin-left: 15px;
 text-align: justify;
@@ -290,4 +297,8 @@ text-decoration: underline;
 footer p {
 margin-top: -15px;
 color: #333;
+}
+
+footer ul {
+color: #42424f;
 }

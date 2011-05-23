@@ -3,15 +3,39 @@
   <h3>Freelance:</h3>
   <div class="accordion">
     <h4><%= link_to "Viarezo", "#" %></h4>
-    <div><%= link_to image_tag("/images/viarezo.png", :class => "portfolio"), "http://www.viarezo.com", :target => "_blank" %></div>
+    <div>
+      <%= link_to image_tag("/images/viarezo.png", :class => "portfolio"), "http://www.viarezo.com", :target => "_blank" %>
+      <p>Website for small enterprises brokering.</p>
+    </div>
     <h4><%= link_to "Skullslab", "#" %></h4>
-    <div><%= link_to image_tag("/images/skullslab.png", :class => "portfolio"), "http://severe-mist-814.heroku.com/", :target => "_blank" %></div>
+    <div>
+      <%= link_to image_tag("/images/skullslab.png", :class => "portfolio"), "http://severe-mist-814.heroku.com/", :target => "_blank" %>
+      <p>Website for a board games company.<br />
+      <%= link_to "GitHub repository", "https://github.com/elhu/skl" %>
+      </p>
+    </div>
     <h4><%= link_to "Elhu.me", "#" %></h4>
-    <div><%= link_to image_tag("/images/elhu.me.png", :class => "portfolio"), root_path, :target => "_blank" %></div>
+    <div>
+      <%= link_to image_tag("/images/elhu.me.png", :class => "portfolio"), root_path, :target => "_blank" %>
+      <p>Portfolio and blog website.<br />
+        <%= link_to "GitHub repository", "https://github.com/elhu/elhu_me" %>
+      </p>
+    </div>
   </div>
   <h3>Other:</h3>
   <div class="accordion">
-    <h4>OpenAuthenticator</h4>
-    <h4>Admin thingy</h4>
+    <h4><%= link_to "OpenAuthenticator", "#" %></h4>
+    <div>
+      <p>Time-based authentication service, carried by mobile-apps.<br />
+        Currently under heavy development, more info will be posted soon.<br />
+      This project is my end of master's project for Epitech.</p>
+    </div>
+    <h4><%= link_to "AdminGenerator", "#" %></h4>
+    <div>
+      <p>Admin and metrics generator for database-backed applications.<br />
+      Currently in an early design stage, more info will be posted when available.<br />
+        This project is my research project for the University of Kent.
+      </p>
+    </div>
   </div>
 </article>

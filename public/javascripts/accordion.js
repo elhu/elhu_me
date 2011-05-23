@@ -1,3 +1,6 @@
 $(document).ready(function (){
-    $(".accordion").accordion();
+    $(".accordion").accordion({
+        active: false,
+        alwaysOpen: false
+    });
 });

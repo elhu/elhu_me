@@ -7,3 +7,4 @@ tmp/
 .idea
 .idea/*
 config/environment.rb
+config/environments/development.rb

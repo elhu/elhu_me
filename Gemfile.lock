@@ -39,6 +39,7 @@ GEM
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    gravatar_image_tag (1.0.0)
     heroku (2.1.4)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
@@ -114,6 +115,7 @@ PLATFORMS
 
 DEPENDENCIES
   clearance
+  gravatar_image_tag
   heroku
   jquery-rails
   rails (= 3.0.7)

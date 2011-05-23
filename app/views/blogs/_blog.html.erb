@@ -2,9 +2,10 @@
   <h3><%= blog.title %></h3>
   <div>
     <%= RedCloth.new(blog.body).to_html.html_safe %>
-  </div
+  </div>
 <% if admin? %>
     <%= link_to 'Edit', edit_blog_path(blog) %> |
-    <%= link_to 'Back', blogs_path %>
+    <%= link_to 'Delete', blog, :method => :delete, :confirm => "Are you sure?" %> |
 <% end %>
+  <%= link_to 'Back', blogs_path %>
 </article>

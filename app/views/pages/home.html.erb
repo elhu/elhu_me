@@ -1,1 +1,5 @@
-<%= render 'blogs/blog', :blog => last_articles(1).first %>
+<%=
+    if not last_articles(1).empty?
+        render 'blogs/blog', :blog => last_articles(1).first
+    end
+ %>

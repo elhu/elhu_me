@@ -19,7 +19,7 @@ color: #666;
 font-size: 14px;
 line-height: 18px;
 }
-	
+
 /* layout */
 
 #wrapper {
@@ -148,9 +148,9 @@ padding: 0 0 0 120px;
 line-height: normal;
 }
 
-header h1 { 	
+header h1 {
 float: left;
-padding-top: 20px; 
+padding-top: 20px;
 font-family: Garamond, Georgia, Times, "Times New Roman", serif;
 font-size: 60px;
 }
@@ -160,8 +160,8 @@ text-decoration: none;
 color: #777;
 }
 
-header h1 a:hover { 
-text-decoration: underline; 
+header h1 a:hover {
+text-decoration: underline;
 }
 
 .shine {
@@ -238,7 +238,7 @@ margin-bottom: 12px;
 /* sidebar and footer widget blocks */
 
 .tweet {
-    border-bottom: 1px #ddd dotted;    
+    border-bottom: 1px #ddd dotted;
 }
 
 .asidebox {
@@ -295,8 +295,8 @@ footer a:link, footer a:visited {
 color: #577695;
 }
 
-footer a:hover { 
-text-decoration: underline; 
+footer a:hover {
+text-decoration: underline;
 }
 
 footer p {
@@ -306,4 +306,8 @@ color: #333;
 
 footer ul {
 color: #42424f;
+}
+
+.markItUp {
+    width: 400px;
 }

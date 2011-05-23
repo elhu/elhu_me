@@ -122,6 +122,11 @@ display: block;
 float: left;
 }
 
+nav .menu li.auth {
+display: block;
+float: right;
+}
+
 nav .menu a {
 display: block;
 float: left;

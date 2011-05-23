@@ -14,6 +14,9 @@
 		    <%= render 'layouts/left_panel' %>
 
 			<section id="content"><!-- #content -->
+              <% flash.each do |key, value| %>
+                <div class="flash <%= key %>"><%=h value %></div>
+              <% end %>
 
               <%= yield %>
         		<!-- %><article>

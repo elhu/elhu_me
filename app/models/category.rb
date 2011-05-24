@@ -18,7 +18,7 @@ class Category < ActiveRecord::Base
   slug :name
 
   def self.categories_with_count
-    Category.find_by_sql("SELECT categories.name AS name, categories.slug AS slug, COUNT(categorizations.id) AS count FROM categories LEFT OUTER JOIN categorizations ON categories.id = categorizations.category_id GROUP BY categorizations.category_id ORDER BY categories.name")
+    Category.find_by_sql("SELECT DISTINCT categories.name AS name, categories.slug AS slug, COUNT(categorizations.id) AS count FROM categories LEFT OUTER JOIN categorizations ON categories.id = categorizations.category_id GROUP BY categorizations.category_id ORDER BY categories.name")
   end
 
   def to_param

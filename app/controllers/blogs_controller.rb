@@ -5,6 +5,7 @@ class BlogsController < ApplicationController
 
   def index
     @blogs = Blog.all
+    @title = "blog"
     @header_title = "blog"
 
     respond_to do |format|
@@ -16,7 +17,7 @@ class BlogsController < ApplicationController
   # GET /blogs/1
   # GET /blogs/1.xml
   def show
-    @blog = Blog.find(params[:id])
+    @blog = Blog.find_by_slug(params[:id])
     @header_title = "blog"
     @title = @blog.title
     respond_to do |format|
@@ -31,6 +32,7 @@ class BlogsController < ApplicationController
     @title = "New blog entry"
     @header_title = "blog"
     @blog = Blog.new
+    @categories = Category.order("name ASC")
 
     respond_to do |format|
       format.html # new.html.erb
@@ -40,7 +42,7 @@ class BlogsController < ApplicationController
 
   # GET /blogs/1/edit
   def edit
-    @blog = Blog.find(params[:id])
+    @blog = Blog.find_by_slug(params[:id])
     @title = "Edit entry #{@blog.title}"
     @header_title = "blog"
   end
@@ -49,7 +51,7 @@ class BlogsController < ApplicationController
   # POST /blogs.xml
   def create
     @blog = Blog.new(params[:blog])
-
+    @blog.categories = Category.find(params[:category_ids]) if params[:category_ids]
     respond_to do |format|
       if @blog.save
         format.html { redirect_to(@blog, :notice => 'Blog was successfully created.') }
@@ -64,7 +66,8 @@ class BlogsController < ApplicationController
   # PUT /blogs/1
   # PUT /blogs/1.xml
   def update
-    @blog = Blog.find(params[:id])
+    @blog = Blog.find_by_slug(params[:id])
+    @blog.categories = Category.find(params[:category_ids]) if params[:category_ids]
 
     respond_to do |format|
       if @blog.update_attributes(params[:blog])
@@ -80,7 +83,11 @@ class BlogsController < ApplicationController
   # DELETE /blogs/1
   # DELETE /blogs/1.xml
   def destroy
-    @blog = Blog.find(params[:id])
+    @blog = Blog.find_by_slug(params[:id])
+    @categorizations = @blog.categorizations
+    @categorizations.each do |cat|
+      cat.destroy
+    end
     @blog.destroy
 
     respond_to do |format|

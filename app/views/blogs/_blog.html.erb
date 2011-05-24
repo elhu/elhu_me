@@ -1,7 +1,12 @@
 <article>
-  <h3><%= blog.title %></h3>
+  <h3><%= link_to blog.title, blog %></h3>
   <div>
-    <%= RedCloth.new(blog.body).to_html.html_safe %>
+    <% logger.debug "LENGTH: #{long}" %>
+    <% if long %>
+        <%= RedCloth.new(blog.body).to_html.html_safe %>
+    <% else %>
+        <%= RedCloth.new(blog.short_body).to_html.html_safe %>
+    <% end %>
   </div>
 <% if admin? %>
     <%= link_to 'Edit', edit_blog_path(blog) %> |

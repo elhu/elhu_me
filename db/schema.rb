@@ -10,11 +10,29 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110523132219) do
+ActiveRecord::Schema.define(:version => 20110524133551) do
 
   create_table "blogs", :force => true do |t|
     t.string   "title"
     t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "slug"
+  end
+
+  create_table "categories", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "slug"
+  end
+
+  add_index "categories", ["name"], :name => "index_categories_on_name", :unique => true
+  add_index "categories", ["slug"], :name => "index_categories_on_slug", :unique => true
+
+  create_table "categorizations", :force => true do |t|
+    t.integer  "blog_id"
+    t.integer  "category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -32,6 +50,7 @@ ActiveRecord::Schema.define(:version => 20110523132219) do
   end
 
   add_index "users", ["email"], :name => "index_users_on_email"
+  add_index "users", ["handle"], :name => "index_users_on_handle", :unique => true
   add_index "users", ["remember_token"], :name => "index_users_on_remember_token"
 
 end

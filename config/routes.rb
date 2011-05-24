@@ -1,6 +1,7 @@
 ElhuMe::Application.routes.draw do
-  resources :blogs
+  resources :categories
 
+  resources :blogs
   match '/contact', :to => 'pages#contact'
   match '/about', :to => 'pages#about'
   match 'portfolio', :to => 'pages#portfolio'

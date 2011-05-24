@@ -9,9 +9,11 @@ gem 'rake', '~> 0.8.7'
 gem 'sendgrid'
 gem 'gravatar_image_tag'
 gem 'RedCloth'
+gem 'slug'
 
 group :development do
       gem 'rspec-rails', '2.6.0'
+      gem 'annotate-models'
 end
 
 group :test do

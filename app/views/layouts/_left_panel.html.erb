@@ -16,7 +16,9 @@
     <div class="asidebox">
     <h3>Categories</h3>
         <ul>
-            <li>Will be added soon!</li>
+          <% Category.categories_with_count.each do |category| %>
+              <li><%= link_to "#{category.name} (#{category.count})", category %></li>
+          <% end %>
         </ul>
     </div>
 

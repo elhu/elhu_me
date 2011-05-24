@@ -2,7 +2,7 @@
     <%= link_to 'New Blog', new_blog_path %>
 <% end %>
 <% @blogs.each do |blog| %>
-<%= render 'blogs/blog', :blog => blog %>
+<%= render 'blogs/blog', :blog => blog, :long => false %>
 <br />
 <% end %>
 

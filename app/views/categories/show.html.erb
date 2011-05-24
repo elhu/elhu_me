@@ -1,6 +1,6 @@
 <% if !@blogs.empty? %>
     <% @blogs.each do |blog| %>
-    <%= render 'blogs/blog', :blog => blog %>
+    <%= render 'blogs/blog', :blog => blog, :long => false %>
     <% end %>
 <% else %>
 <article><h3>This category has no entry yet.</h3></article>

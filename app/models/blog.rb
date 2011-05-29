@@ -13,17 +13,11 @@
 class Blog < ActiveRecord::Base
   has_many :categorizations
   has_many :categories, :through => :categorizations
+  has_many :comments, :dependent => :destroy
 
-  validates :title, :presence => true
+  validates :title, :presence => true, :uniqueness => { :case_sensitive => false }
   validates :body, :presence => true
+  validates :slug, :uniqueness => true, :uniqueness => { :case_sensitive => false }
 
   slug :title
-
-  def short_body
-    if body.length > 500
-      body.truncate(500) + "..."
-    else
-      body
-    end
-  end
 end

@@ -20,6 +20,7 @@ class BlogsController < ApplicationController
     @blog = Blog.find_by_slug(params[:id])
     @header_title = "blog"
     @title = @blog.title
+    @comment = Comment.new
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @blog }
@@ -45,6 +46,7 @@ class BlogsController < ApplicationController
     @blog = Blog.find_by_slug(params[:id])
     @title = "Edit entry #{@blog.title}"
     @header_title = "blog"
+    @categories = Category.order("slug ASC")
   end
 
   # POST /blogs
@@ -54,6 +56,7 @@ class BlogsController < ApplicationController
     @blog.categories = Category.find(params[:category_ids]) if params[:category_ids]
     respond_to do |format|
       if @blog.save
+        format.js
         format.html { redirect_to(@blog, :notice => 'Blog was successfully created.') }
         format.xml  { render :xml => @blog, :status => :created, :location => @blog }
       else

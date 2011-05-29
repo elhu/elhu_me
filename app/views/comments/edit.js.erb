@@ -1,0 +1,2 @@
+$("#comment_<%= @comment.id %>").html("<%= escape_javascript render 'comments/form' %>");
+$("#markItUp_<%= @comment.id %>").markItUp(mySettings);

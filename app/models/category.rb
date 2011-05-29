@@ -11,10 +11,12 @@
 #
 
 class Category < ActiveRecord::Base
-  has_many :categorizations  
-  has_many :blogs, :through => :categorizations
+  has_many :categorizations, :dependent => :destroy
+  has_many :blogs, :through => :categorizations, :dependent => :destroy
 
   validates :name, :presence => true, :uniqueness => { :case_sensitive => false }
+  validates :slug, :presence => true, :uniqueness => { :case_sensitive => false }
+
   slug :name
 
   def self.categories_with_count

@@ -35,6 +35,8 @@ GEM
     clearance (0.11.1)
       diesel (~> 0.1.4)
       rails (~> 3.0.0)
+    client_side_validations (3.0.4)
+      activesupport (~> 3.0.0)
     configuration (1.2.0)
     diesel (0.1.4)
       railties (~> 3.0.3)
@@ -122,6 +124,7 @@ DEPENDENCIES
   RedCloth
   annotate-models
   clearance
+  client_side_validations
   gravatar_image_tag
   heroku
   jquery-rails

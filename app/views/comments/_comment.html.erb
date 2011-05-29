@@ -1,0 +1,11 @@
+<span id="comment_<%= comment.id %>">
+  <div class=""><%= gravatar_image_tag(comment.user.email, :alt => comment.user.handle, :gravatar => {:size => 30}) %> <%= comment.user.handle.capitalize %></div>
+  <span><%= RedCloth.new(comment.content).to_html.html_safe %></span>
+
+  <% unless current_user.blank? %>
+    <% if comment.user_id == current_user.id or current_user.admin? %>
+      <%= link_to "Edit", comment_url(blog.slug, comment.id, "edit"), :remote => true %> | 
+      <%= link_to "Delete", comment_url(blog.slug, comment.id), :method => :delete, :remote => true, :confirm => "Are you sure you want to delete this comment?" %>
+    <% end %>
+  <% end %>
+</span>

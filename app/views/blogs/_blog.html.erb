@@ -5,7 +5,7 @@
     <% if long %>
         <%= RedCloth.new(blog.body).to_html.html_safe %>
     <% else %>
-        <%= RedCloth.new(blog.short_body).to_html.html_safe %>
+        <%= RedCloth.new(truncate(blog.body, :length => 500, :separator => " ")).to_html.html_safe %>
     <% end %>
   </div>
 <% if admin? %>

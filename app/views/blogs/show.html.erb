@@ -1,2 +1,19 @@
 <%= render 'blogs/blog', :blog => @blog, :long => true %>
-
+<%= link_to "New comment", "#", :id => "new_comment_link" %><br />
+<%= render 'comments/form' %><br />
+<span id="comments">
+    <%= render 'comments/comments', :blog => @blog %>
+</span>
+<script>
+    $("#new_comment").hide();
+    $("#new_comment_link").click(function() {
+        if ($("#new_comment").is(':visible')) {
+            $("#new_comment_link").text("New comment");
+            $("#new_comment").hide();
+        }
+        else {
+            $("#new_comment_link").text("Cancel");
+            $("#new_comment").show();
+        }
+    });
+</script>

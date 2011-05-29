@@ -1,0 +1,7 @@
+<% if blog.comments.blank? %>
+    No comments on this blog yet.
+<% else %>
+    <% blog.comments.each do |comment| %>
+        <%= render "comments/comment", :blog => blog, :comment => comment %>
+    <% end %>
+<% end %>

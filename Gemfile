@@ -10,6 +10,7 @@ gem 'sendgrid'
 gem 'gravatar_image_tag'
 gem 'RedCloth'
 gem 'slug'
+gem 'client_side_validations'
 
 group :development do
       gem 'rspec-rails', '2.6.0'

@@ -1,0 +1,4 @@
+$("#comments").html("<%= escape_javascript(render('comments/comments', :blog => @comment.blog)) %>");
+$("#new_comment_link").text("New comment");
+$("#new_comment").hide();
+        

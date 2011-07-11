@@ -8,9 +8,12 @@ gem 'clearance'
 gem 'rake', '~> 0.8.7'
 gem 'sendgrid'
 gem 'gravatar_image_tag'
-gem 'RedCloth'
+gem 'redcarpet'
+gem 'albino'
+gem 'nokogiri'
 gem 'slug'
 gem 'client_side_validations'
+gem 'mysql2'
 
 group :development do
       gem 'rspec-rails', '2.6.0'

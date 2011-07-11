@@ -69,10 +69,8 @@ class CommentsController < ApplicationController
       if @comment.update_attributes(params[:comment])
         format.js { render 'comments/create'}
         format.html { redirect_to(@comment.blog, :notice => 'Comment was successfully updated.') }
-        format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
-        format.xml  { render :xml => @comment.errors, :status => :unprocessable_entity }
       end
     end
   end

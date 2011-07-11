@@ -1,18 +1,18 @@
 <nav><!-- top nav -->
-		<div class="menu">
-			<ul>
-				<li><%= link_to "Home", root_path %></li>
-                <li><%= link_to "Portfolio", portfolio_path %></li>
-                <li><%= link_to "Blog", blogs_path %></li>
-				<li><%= link_to "About", about_path %></li>
-				<li><%= link_to "Contact", contact_path %></li>
-            <% if signed_in? %>
-                <li class="auth"><%= link_to "Sign out", sign_out_path, :method => :delete %></li>
-                <li class="auth">Hello <%= current_user.handle.capitalize %></li>
-                <li class="auth"><%= gravatar_image_tag(current_user.email, :alt => current_user.handle, :gravatar => { :size => 30 }) %></li>
-            <% else %>
-                <li class="auth"><%= link_to "Sign in/Sign up", sign_in_path %></li>
-            <% end %>
-          </ul>
-        </div>
+  <div class="menu">
+    <ul>
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "Portfolio", portfolio_path %></li>
+      <li><%= link_to "Blog", blogs_path %></li>
+      <li><%= link_to "About", about_path %></li>
+      <li><%= link_to "Contact", contact_path %></li>
+      <% if signed_in? %>
+        <li class="auth"><%= link_to "Sign out", sign_out_path, :method => :delete %></li>
+        <li class="auth">Hello <%= current_user.handle.capitalize %></li>
+        <li class="auth"><%= gravatar_image_tag(current_user.email, :alt => current_user.handle, :gravatar => { :size => 30 }) %></li>
+      <% else %>
+        <li class="auth"><%= link_to "Sign in/Sign up", sign_in_path %></li>
+      <% end %>
+    </ul>
+  </div>
 </nav>

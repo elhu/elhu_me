@@ -3,9 +3,9 @@
   <div>
     <% logger.debug "LENGTH: #{long}" %>
     <% if long %>
-        <%= RedCloth.new(blog.body).to_html.html_safe %>
+        <%= markdown blog.body  %>
     <% else %>
-        <%= RedCloth.new(truncate(blog.body, :length => 500, :separator => " ")).to_html.html_safe %>
+        <%= markdown truncate(blog.body, :length => 500, :separator => " ") %>
     <% end %>
   </div>
 <% if admin? %>

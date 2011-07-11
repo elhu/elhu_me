@@ -188,6 +188,20 @@ article {
     text-align: justify;
 }
 
+#content {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+    border-style: solid; 
+    border-width: 5px; 
+    border-color: #EEEEEE; 
+}
+
+hr {
+    color: #EEEEEE;
+}
+
 article img {
     border: none;
     -webkit-box-shadow: 3px 3px 7px #777;
@@ -277,7 +291,7 @@ aside ul {
 }
 
 .footer-segment {
-    float: left;
+    float: right;
     margin-right: 20px;
     margin-left: 20px;
     width: 190px;

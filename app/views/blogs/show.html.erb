@@ -1,6 +1,7 @@
 <%= render 'blogs/blog', :blog => @blog, :long => true %>
 <%= link_to "New comment", "#", :id => "new_comment_link" %><br />
 <%= render 'comments/form' %><br />
+There is <%= @blog.comments.count %> comment on this article:
 <span id="comments">
     <%= render 'comments/comments', :blog => @blog %>
 </span>

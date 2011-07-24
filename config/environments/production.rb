@@ -47,6 +47,6 @@ ElhuMe::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
   # Compress both stylesheets and JavaScripts
-  config.assets.js_compressor  = :uglifier
-  config.assets.css_compressor = :scss
+  # config.assets.js_compressor  = :uglifier
+  # config.assets.css_compressor = :scss
 end

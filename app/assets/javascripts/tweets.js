@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var username = "elhu";
-    var count = "4";
+    var count = "2";
     var format = "json";
     var url = "http://api.twitter.com/1/statuses/user_timeline/" + username + "." + format + "?callback=?&count=" + count;
     $.getJSON(url, function(tweets) {

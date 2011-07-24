@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.7'
+gem 'rails', '3.1.0.rc4'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'jquery-rails'
 gem 'heroku'
 gem 'clearance'
-gem 'rake', '~> 0.8.7'
+gem 'rake'
 gem 'sendgrid'
 gem 'gravatar_image_tag'
 gem 'redcarpet'
@@ -15,12 +15,21 @@ gem 'slug'
 gem 'client_side_validations'
 gem 'mysql2'
 
+# Rails 3.1 - Asset Pipeline
+gem 'json'
+gem 'sass'
+gem 'coffee-script'
+gem 'uglifier'
+
+gem 'execjs'
+gem 'therubyracer'
+
 group :development do
-      gem 'rspec-rails', '2.6.0'
+      gem 'rspec-rails'
       gem 'annotate-models'
 end
 
 group :test do
-      gem 'rspec', '2.6.0'
-      gem 'webrat', '0.7.1'
+      gem 'rspec'
+      gem 'webrat'
 end

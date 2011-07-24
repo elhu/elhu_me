@@ -2,45 +2,23 @@
 <html>
 <head>
   <%= render 'layouts/title' %>
-  <%= stylesheet_link_tag '../javascripts/markitup/skins/markitup/style', '../javascripts/markitup/sets/markdown/style' %>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults, 'tweets', 'accordion', 'markitup/jquery.markitup', 'markitup/sets/markdown/set', "rails.validations" %>
+  <%= stylesheet_link_tag 'application' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tag %>
 </head>
 <body>
-<div id="wrapper"><!-- #wrapper -->
-<%= render 'layouts/header' %>
-
-  <section id="main"><!-- #main content and sidebar area -->
-        <%= render 'layouts/left_panel' %>
-
+  <div id="wrapper"><!-- #wrapper -->
+    <%= render 'layouts/header' %>
+    <section id="main"><!-- #main content and sidebar area -->
       <section id="content"><!-- #content -->
-              <% flash.each do |key, value| %>
-                <div class="flash <%= key %>"><%=h value %></div>
-              <% end %>
-
-              <%= yield %>
-            <!-- %><article>
-              <h2><a href="#">First Article Title</a></h2>
-              <img src="images/steelball.jpg" alt="" class="alignleft" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
-            </article>
-
-            <article>
-              <h2><a href="#">Second Article Title</a></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
-
-              <p>Ea nam saepe essent malorum, in pertinacia scribentur complectitur cum. Ea vero nulla dicunt sed, vim zzril evertitur te, eros utinam ei sed. Vim ferri adhuc invenire an. No doming petentium pri, pericula maluisset laboramus nec no. Ea velit latine scaevola eos. Paulo scripta disputationi id nec, delenit fabellas et quo, diam noster perpetua vis no.</p>
-
-            </article>-->
-
+        <% flash.each do |key, value| %>
+          <div class="flash <%= key %>"><%=h value %></div>
+        <% end %>
+        <%= yield %>
       </section><!-- end of #content -->
-
-            <%= render 'layouts/right_panel' %>
-
-  </section><!-- end of #main content and sidebar-->
-
-<%= render 'layouts/footer' %>
-</div><!-- #wrapper -->
-<!-- Free template created by http://freehtml5templates.com -->
+      <%= render 'layouts/right_panel' %>
+    </section><!-- end of #main content and sidebar-->
+  <%= render 'layouts/footer' %>
+  </div><!-- #wrapper -->
 </body>
 </html>

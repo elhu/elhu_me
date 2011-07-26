@@ -6,6 +6,18 @@
       <li><%= link_to "Blog", blogs_path %></li>
       <li><%= link_to "About", about_path %></li>
       <li><%= link_to "Contact", contact_path %></li>
+      <li>
+        <% link_to image_tag("facebook.png", :title => "Facebook", :class => "contact"), "http://facebook.com", :target => :blank %>
+        <%= mail_to "boisard.v@gmail.com", image_tag("email.png", :title => "Email", :class => "contact"), :target => :blank %>
+        <%= link_to image_tag("twitter.png", :title => "Twitter", :class => "contact"), "http://twitter.com/#!/Elhu", 
+        :target => :blank %>
+        <%= link_to image_tag("linkedin.png", :title => "LinkedIn", :class => "contact"), 
+        "http://www.linkedin.com/profile/view?id=22570022&trk=tab_pro", :target => :blank %>
+        <%= link_to image_tag("skype.png", :title => "Skype", :class => "contact"), "skype:vincent.boisard", :target => :blank %>
+        <%= link_to image_tag("github.png", :title => "GitHub", :class => "contact"), "http://github.com/elhu", :target => :blank %>
+        <% link_to image_tag("google.png", :title => "Google+", :class => "contact"), 
+        "https://plus.google.com/u/0/106892327252719083923/posts", :target => :blank %>
+      </li>
       <% if signed_in? %>
         <li class="auth"><%= link_to "Sign out", sign_out_path, :method => :delete %></li>
         <li class="auth">Hello <%= current_user.handle.capitalize %></li>

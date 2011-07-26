@@ -148,6 +148,11 @@ nav .menu {
             text-decoration: underline;
         }
     }
+
+    img.contact {
+        margin-top: -2px;
+        margin-right: -25px;
+    }
 }
 
 /** HEADER */
@@ -215,12 +220,18 @@ hr {
     color: #EEEEEE;
 }
 
-article img {
-    border: none;
-    -webkit-box-shadow: 3px 3px 7px #777;
-    -moz-box-shadow: 3px 3px 7px #777;
+article {
+    img {
+        border: none;
+        -webkit-box-shadow: 3px 3px 7px #777;
+        -moz-box-shadow: 3px 3px 7px #777;
+    }
+    img.contact {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        margin-right: 2px;
+    }
 }
-
 #content {
     p, ul, ol, hr {
         margin-bottom: 24px;

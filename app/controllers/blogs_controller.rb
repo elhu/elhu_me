@@ -26,7 +26,7 @@ class BlogsController < ApplicationController
     @comment = Comment.new
     set_meta_tags :title => @blog.title,
       :description => '',
-      :keywords => "Ruby-on-Rails, Rails, Ruby, Elhu, Freelance, #{@blog.slug}"
+      :keywords => "Ruby-on-Rails, Rails, Ruby, Elhu, Freelance, #{@blog.slug.gsub("-", ", ")}"
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @blog }

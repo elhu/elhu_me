@@ -7,6 +7,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.erb",
+			"settings":
+			{
+				"buffer_size": 1827,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/stylesheets/style.css.scss",
+			"settings":
+			{
+				"buffer_size": 6257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.erb",
+			"settings":
+			{
+				"buffer_size": 915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.erb",
+			"settings":
+			{
+				"buffer_size": 3556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/javascripts/accordion.js",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -100,6 +140,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"_blank\"",
 			"<%= will_paginate",
 			"find_by_field_name",
 			"checkbox",
@@ -129,6 +170,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			":blank",
 			"current_user"
 		],
 		"reverse": false,
@@ -147,8 +189,145 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.erb",
+					"settings":
+					{
+						"buffer_size": 1827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1021,
+								1021
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/stylesheets/style.css.scss",
+					"settings":
+					{
+						"buffer_size": 6257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3673,
+								3673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 3198,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.erb",
+					"settings":
+					{
+						"buffer_size": 915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.erb",
+					"settings":
+					{
+						"buffer_size": 3556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 139,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/javascripts/accordion.js",
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -181,6 +360,26 @@
 		"height": 0,
 		"selected_items":
 		[
+			[
+				"accor",
+				"app/assets/javascripts/accordion.js"
+			],
+			[
+				"port",
+				"app/views/pages/portfolio.html.erb"
+			],
+			[
+				"contact",
+				"app/views/pages/contact.html.erb"
+			],
+			[
+				"style",
+				"app/assets/stylesheets/style.css.scss"
+			],
+			[
+				"_men",
+				"app/views/layouts/_menu.html.erb"
+			],
 			[
 				"_nav",
 				"app/views/layouts/_nav.html.erb"

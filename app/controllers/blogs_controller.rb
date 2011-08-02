@@ -7,6 +7,9 @@ class BlogsController < ApplicationController
     @blogs = Blog.all
     @title = "blog"
     @header_title = "blog"
+    set_meta_tags :title => 'Blog',
+      :description => 'List of blog articles',
+      :keywords => 'Blog, Ruby-on-Rails, Rails, Ruby, Elhu, Freelance'
 
     respond_to do |format|
       format.html # index.html.erb
@@ -21,6 +24,9 @@ class BlogsController < ApplicationController
     @header_title = "blog"
     @title = @blog.title
     @comment = Comment.new
+    set_meta_tags :title => @blog.title,
+      :description => '',
+      :keywords => "Ruby-on-Rails, Rails, Ruby, Elhu, Freelance, #{@blog.slug}"
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @blog }

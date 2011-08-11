@@ -24,26 +24,10 @@
 			}
 		},
 		{
-			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.erb",
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/controllers/blogs_controller.rb",
 			"settings":
 			{
-				"buffer_size": 915,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.erb",
-			"settings":
-			{
-				"buffer_size": 3556,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/javascripts/accordion.js",
-			"settings":
-			{
-				"buffer_size": 135,
+				"buffer_size": 2910,
 				"line_ending": "Unix"
 			}
 		}
@@ -57,6 +41,10 @@
 		],
 		"width": 575
 	},
+	"console":
+	{
+		"height": 0
+	},
 	"distraction_free":
 	{
 		"menu_visible": true,
@@ -67,6 +55,12 @@
 	},
 	"file_history":
 	[
+		"/home/elhu/workspace/rails_projects/elhu_me/app/controllers/pages_controller.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/application.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/assets/javascripts/accordion.js",
+		"/home/elhu/workspace/rails_projects/elhu_me/Gemfile",
 		"/home/elhu/workspace/rails_projects/BAD/app/views/table_field/index.html.erb",
 		"/home/elhu/workspace/rails_projects/BAD/app/views/applications/_form.html.erb",
 		"/home/elhu/workspace/rails_projects/BAD/app/views/applications/show.html.erb",
@@ -122,8 +116,13 @@
 		"/home/elhu/workspace/rails_projects/openauthenticator/spec/models/user_spec.rb",
 		"/home/elhu/Desktop/test.rb"
 	],
+	"find":
+	{
+		"height": 0
+	},
 	"find_in_files":
 	{
+		"height": 87,
 		"include_history":
 		[
 			"",
@@ -189,7 +188,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -243,87 +242,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
-						"translation.y": 3198,
+						"translation.y": 206,
 						"zoom_level": 1
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.erb",
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/controllers/blogs_controller.rb",
 					"settings":
 					{
-						"buffer_size": 915,
+						"buffer_size": 2910,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								140,
-								176
+								823,
+								823
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.erb",
-					"settings":
-					{
-						"buffer_size": 3556,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								265,
-								265
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
-						"translation.y": 139,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/javascripts/accordion.js",
-					"settings":
-					{
-						"buffer_size": 135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								135,
-								135
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
+						"translation.y": 907,
 						"zoom_level": 1
 					},
 					"type": "text"
@@ -331,6 +278,14 @@
 			]
 		}
 	],
+	"incremental_find":
+	{
+		"height": 0
+	},
+	"input":
+	{
+		"height": 0
+	},
 	"layout":
 	{
 		"cells":
@@ -354,12 +309,32 @@
 		]
 	},
 	"menu_visible": true,
+	"replace":
+	{
+		"height": 0
+	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0,
 		"selected_items":
 		[
+			[
+				"blog_",
+				"app/controllers/blogs_controller.rb"
+			],
+			[
+				"pages_",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"layou",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
 			[
 				"accor",
 				"app/assets/javascripts/accordion.js"
@@ -507,10 +482,6 @@
 			[
 				"devel",
 				"config/environments/development.rb"
-			],
-			[
-				"gemf",
-				"Gemfile"
 			],
 			[
 				"application_ta",

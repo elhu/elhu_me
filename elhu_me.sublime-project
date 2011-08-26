@@ -3,31 +3,67 @@
 	{
 		"selected_items":
 		[
+			[
+				"authentication",
+				"authentication_failure"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.erb",
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/about.html.haml",
 			"settings":
 			{
-				"buffer_size": 1827,
+				"buffer_size": 831,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/stylesheets/style.css.scss",
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.haml",
 			"settings":
 			{
-				"buffer_size": 6257,
+				"buffer_size": 887,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/controllers/blogs_controller.rb",
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/home.html.haml",
 			"settings":
 			{
-				"buffer_size": 2910,
+				"buffer_size": 105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.haml",
+			"settings":
+			{
+				"buffer_size": 2988,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/Gemfile",
+			"settings":
+			{
+				"buffer_size": 615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/application.html.haml",
+			"settings":
+			{
+				"buffer_size": 950,
 				"line_ending": "Unix"
 			}
 		}
@@ -55,12 +91,40 @@
 	},
 	"file_history":
 	[
-		"/home/elhu/workspace/rails_projects/elhu_me/app/controllers/pages_controller.rb",
-		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/application.html.erb",
-		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.erb",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.erb",
-		"/home/elhu/workspace/rails_projects/elhu_me/app/assets/javascripts/accordion.js",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/home.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_header.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/application.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_title.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/about.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/assets/stylesheets/style.css.scss",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_right_panel.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_footer.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.haml.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_right_panel.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/application.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_footer.html.erb",
 		"/home/elhu/workspace/rails_projects/elhu_me/Gemfile",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_title.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_header.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/users/_form.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/users/new.html.erb",
+		"/home/elhu/workspace/rails_projects/elhu_me/config/routes.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/controllers/application_controller.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/sessions/new.html.erb",
+		"/home/elhu/workspace/rails_projects/openauthenticator/app/controllers/auth_controller.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/controllers/sessions_controller.rb",
+		"/home/elhu/workspace/rails_projects/BAD/app/controllers/sessions_controller.rb",
+		"/home/elhu/workspace/rails_projects/auth_demo/app/controllers/auth_controller.rb",
+		"/home/elhu/workspace/rails_projects/openauthenticator/app/models/auth_log.rb",
+		"/home/elhu/workspace/rails_projects/auth_demo/app/controllers/application_controller.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/controllers/blogs_controller.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/assets/javascripts/jquery_ujs.js",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/controllers/pages_controller.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/assets/javascripts/accordion.js",
 		"/home/elhu/workspace/rails_projects/BAD/app/views/table_field/index.html.erb",
 		"/home/elhu/workspace/rails_projects/BAD/app/views/applications/_form.html.erb",
 		"/home/elhu/workspace/rails_projects/BAD/app/views/applications/show.html.erb",
@@ -118,7 +182,7 @@
 	],
 	"find":
 	{
-		"height": 0
+		"height": 33
 	},
 	"find_in_files":
 	{
@@ -139,6 +203,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<br />",
+			" </strong>",
+			"<strong>",
+			"	",
+			"<strong>",
+			"</strong>",
 			"\"_blank\"",
 			"<%= will_paginate",
 			"find_by_field_name",
@@ -169,6 +239,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"** ",
+			"**",
+			"  ",
+			"**",
 			":blank",
 			"current_user"
 		],
@@ -188,29 +263,28 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.erb",
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/about.html.haml",
 					"settings":
 					{
-						"buffer_size": 1827,
+						"buffer_size": 831,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1021,
-								1021
+								740,
+								740
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
@@ -221,46 +295,125 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/stylesheets/style.css.scss",
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.haml",
 					"settings":
 					{
-						"buffer_size": 6257,
+						"buffer_size": 887,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3673,
-								3673
+								658,
+								658
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
-						"translation.y": 206,
+						"translation.y": 0,
 						"zoom_level": 1
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/controllers/blogs_controller.rb",
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/home.html.haml",
 					"settings":
 					{
-						"buffer_size": 2910,
+						"buffer_size": 105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								823,
-								823
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.haml",
+					"settings":
+					{
+						"buffer_size": 2988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2451,
+								2451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 216,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/Gemfile",
+					"settings":
+					{
+						"buffer_size": 615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/helpers/application_helper.rb",
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
 							]
 						],
 						"settings":
@@ -270,7 +423,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
-						"translation.y": 907,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/application.html.haml",
+					"settings":
+					{
+						"buffer_size": 950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
 						"zoom_level": 1
 					},
 					"type": "text"
@@ -311,7 +492,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0
+		"height": 62
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -319,6 +500,90 @@
 		"height": 0,
 		"selected_items":
 		[
+			[
+				"app",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"appl",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"_ti",
+				"app/views/layouts/_title.html.haml"
+			],
+			[
+				"_hea",
+				"app/views/layouts/_header.html.haml"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"pages/",
+				"app/views/pages/portfolio.html.erb"
+			],
+			[
+				"views/pages/",
+				"app/views/pages/about.html.erb"
+			],
+			[
+				"css",
+				"app/assets/stylesheets/style.css.scss"
+			],
+			[
+				"men",
+				"app/views/layouts/_menu.html.haml"
+			],
+			[
+				"layo",
+				"app/views/layouts/_right_panel.html.erb"
+			],
+			[
+				"foo",
+				"app/views/layouts/_footer.html.erb"
+			],
+			[
+				"layouts/",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"title",
+				"app/views/layouts/_title.html.erb"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"user_for",
+				"app/views/users/_form.html.erb"
+			],
+			[
+				"usernew",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"application_cont",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"sessions/",
+				"app/views/sessions/new.html.erb"
+			],
+			[
+				"jquery",
+				"app/assets/javascripts/jquery_ujs.js"
+			],
+			[
+				"application.ht",
+				"app/views/layouts/application.html.erb"
+			],
 			[
 				"blog_",
 				"app/controllers/blogs_controller.rb"
@@ -408,10 +673,6 @@
 				"app/views/applications/show.html.erb"
 			],
 			[
-				"route",
-				"config/routes.rb"
-			],
-			[
 				"applications_co",
 				"app/controllers/applications_controller.rb"
 			],
@@ -464,10 +725,6 @@
 				"public/javascripts/application.js"
 			],
 			[
-				"application.ht",
-				"app/views/layouts/application.html.erb"
-			],
-			[
 				"table_co",
 				"app/controllers/table_controller.rb"
 			],
@@ -488,10 +745,6 @@
 				"app/models/application_table.rb"
 			],
 			[
-				"application_cont",
-				"app/controllers/application_controller.rb"
-			],
-			[
 				"table_field",
 				"app/models/table_field.rb"
 			],
@@ -502,10 +755,6 @@
 			[
 				"public/st/",
 				"public/stylesheets/screen.css"
-			],
-			[
-				"gem",
-				"Gemfile"
 			],
 			[
 				"config/app",
@@ -632,10 +881,6 @@
 				"app/views/application_table/_show.html.erb"
 			],
 			[
-				"application",
-				"app/controllers/application_controller.rb"
-			],
-			[
 				"update",
 				"app/views/application_table/update.js.erb"
 			],
@@ -660,10 +905,6 @@
 				"app/views/applications/show.html.erb"
 			],
 			[
-				"appl",
-				"app/controllers/applications_controller.rb"
-			],
-			[
 				"application_c",
 				"app/controllers/application_controller.rb"
 			],
@@ -682,10 +923,6 @@
 			[
 				"_",
 				"app/views/application_table/_show.js.erb"
-			],
-			[
-				"layouts/",
-				"app/views/layouts/application.html.erb"
 			],
 			[
 				"ui.",
@@ -774,10 +1011,6 @@
 			[
 				"mode/user",
 				"spec/models/user_spec.rb"
-			],
-			[
-				"user_contr",
-				"app/controllers/users_controller.rb"
 			]
 		],
 		"width": 0

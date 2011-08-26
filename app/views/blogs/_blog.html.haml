@@ -1,0 +1,11 @@
+%article
+  %h3= link_to blog.title, blog
+  %div
+    - if long
+      = markdown blog.body
+    - else
+      = markdown truncate(blog.body, :length => 500, :separator => " ")
+- if admin?
+  = link_to 'Edit', edit_blog_path(blog)
+  == #{link_to 'Delete', blog, :method => :delete, :confirm => "Are you sure?"} |
+= link_to 'Back', blogs_path

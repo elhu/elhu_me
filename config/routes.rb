@@ -1,5 +1,5 @@
 ElhuMe::Application.routes.draw do
-
+	resource :session, :controller => 'sessions'
   resources :categories
 
   resources :blogs do

@@ -1,0 +1,12 @@
+%div#new_comment_cont
+  = form_for([@blog, @comment], :validate => true, :remote => true) do |f|
+    - if @comment.errors.any?
+      %div#error_explanation
+        %h2== #{pluralize(@comment.errors.count, "error")} prohibited this comment from being saved:
+        %ul
+          - @comment.errors.full_messages.each do |msg|
+            %li= msg
+    %div.field
+      = f.text_area :content,:class => "markItUp", :id => "markItUp_#{@comment.id}"
+    %div.actions
+      = f.submit nil

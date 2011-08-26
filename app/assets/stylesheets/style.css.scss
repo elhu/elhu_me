@@ -282,11 +282,6 @@ img.alignleft, img.alignright, img.aligncenter {
 
 .asidebox {
     width: 180px;
-    -o-border-image: url('/assets/boxborder.gif') 27 27 27 27 round round;
-    -icab-border-image: url('/assets/boxborder.gif') 27 27 27 27 round round;
-    -khtml-border-image: url('/assets/boxborder.gif') 27 27 27 27 round round;
-    -moz-border-image: url('/assets/boxborder.gif') 27 27 27 27 round round;
-    -webkit-border-image: url('/assets/boxborder.gif') 27 27 27 27 round round;
     border-image: url('/assets/boxborder.gif') 27 27 27 27 round round;
     border: 10px solid #eee;
     margin-bottom: 30px;

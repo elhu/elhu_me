@@ -9,6 +9,11 @@
     <%= form.label :password %>
     <%= form.password_field :password %>
   </div>
+  <div class="text_field">
+    <%= form.label :oa_token, "OpenAuthenticator token" %>
+    <%= form.text_field :oa_token %><br /> (if you don't know what 
+    <%= link_to 'OpenAuthenticator', 'http://said.elhu.me', :target => :blank %> is, please leave blank)
+  </div>
   <div class="submit_field">
     <%= form.submit "Sign in" %>
   </div>

@@ -1,0 +1,28 @@
+%div.text_field
+  = form.label :email
+  = form.text_field :email, :type => "email"
+%div.text_field
+  = form.label :handle
+  = form.text_field :handle
+%div.password_field
+  = form.label :password
+  = form.password_field :password
+%div.text_field
+  = form.label :uses_openauthenticator, "Do you use openauthenticator"
+  = form.check_box :uses_openauthenticator
+%div.text_field
+  = form.label :account_token, "OpenAuthenticator account token"
+  = form.text_field :account_token, :disabled => "disabled"
+:javascript
+  $(document).ready(function() {
+    $("#user_uses_openauthenticator").change(function() { 
+      console.log("#user_uses_openauthenticator has been checked or unchecked.");
+      elem = $("#user_account_token");
+      if (elem.is(':disabled') == true) {
+        elem.removeAttr('disabled');
+      }
+      else {
+        elem.attr('disabled', 'disabled');
+      }
+    });
+  });

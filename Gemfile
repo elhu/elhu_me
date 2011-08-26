@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc4'
+gem 'rails', '3.1.0.rc5'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'jquery-rails'
 gem 'heroku'
@@ -21,6 +21,8 @@ gem 'json'
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
+gem 'haml'
+gem 'maruku'
 
 gem 'execjs'
 gem 'therubyracer'

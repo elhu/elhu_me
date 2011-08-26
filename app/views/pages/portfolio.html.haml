@@ -1,0 +1,52 @@
+%article
+  %h2= @title.capitalize
+  %h3 Freelance:
+  %div.accordion
+    %h4= link_to "Viarezo", "#"
+    %div
+      = link_to image_tag("/assets/viarezo.png", :class => "portfolio"), "http://www.viarezo.com", :target => :blank
+      :markdown
+        **Description:** Website for small enterprises brokering.
+        **Role:** Developer, software and database designer.
+        **Technologies:** Ruby on Rails, JQuery, SQL, HTML, CSS.
+        **Challenges:** Highly dynamic content and display, extensive use of AJAX, business critical application.
+    %h4= link_to "Skullslab", "#"
+    %div
+      = link_to image_tag("/assets/skullslab.png", :class => "portfolio"), "http://severe-mist-814.heroku.com/", :target => :blank
+      :markdown
+        **Description:** Website for a board games company.
+        **Role:** Sole developer, software and database designer.
+        **Technologies:** Ruby on Rails, SQL, JQuery, HTML, CSS.
+        **Source:** #{link_to "GitHub repository", "https://github.com/elhu/skl", :target => :blank}
+    %h4= link_to "Elhu.me", "#"
+    %div
+      = link_to image_tag("/assets/elhu.me.png", :class => "portfolio"), root_path, :target => :blank
+      :markdown
+        **Description:** Portfolio and blog website.
+        **Role:** Sole developer, software and database designer.
+        **Technologies:** Ruby on Rails, SQL, JQuery, HTML, CSS.
+        **Source:** #{link_to "GitHub repository", "https://github.com/elhu/elhu_me", :target => :blank}
+  %h3 Other:
+  %div.accordion
+    %h4= link_to "OpenAuthenticator", "#"
+    %div
+      = link_to image_tag("/assets/openauthenticator.png", :class => "portfolio"), "http://said.elhu.me/", :target => :blank
+      :markdown
+        **Description:** Time-based authentication service, carried by mobile-apps.
+          Currently under heavy development, check out the GitHub repository.
+        This project is my end of master's project for Epitech.
+        **Role:** Project leader, main API developer, software and database designer.
+        **Technologies:** Ruby on Rails, SQL.
+        **Challenges:** API creation, security, project management with team members spread in 5 countries.
+        **Source:** #{link_to "GitHub repository", "https://github.com/elhu/OpenAuthenticator", :target => :blank}
+    %h4= link_to "AdminGenerator", "#"
+    %div
+      = link_to image_tag("bad.png", :class => "portfolio"), "https://github.com/florentji/BAD", :target => :blank
+      :markdown
+        **Description:** Admin and metrics generator for database-backed applications.
+        Currently in an early development stage, check out the GitHub repository.
+          This project is my research project for the University of Kent.
+        **Role:** Developer, software and database designer.
+        **Technologies:** Ruby on Rails, SQL.
+        **Challenges:** Database reflexivity, dynamic class generation.
+        **Source:** #{link_to "GitHub repository", "https://github.com/florentji/BAD", :target => :blank}

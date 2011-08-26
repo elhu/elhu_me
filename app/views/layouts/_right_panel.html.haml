@@ -1,0 +1,19 @@
+%aside#sidebar1
+  %div.asidebox
+    %h3 Latest articles
+    %ul
+      - if not last_articles(5).empty?
+        - last_articles(5).each do |blog|
+          %li= link_to blog.title, blog
+        %li.alignright=  link_to "more...", blogs_url
+      - else
+        %li No articles have been written yet.
+  #div.asidebox
+    %h3 Categories
+    %ul
+      - Category.categories_with_count.each do |category|
+        %li= link_to "#{category.name} (#{category.count})", category
+  #div.asidebox
+    %h3 Tags
+    %ul
+      %li Will be added soon!

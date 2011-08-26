@@ -1,0 +1,13 @@
+:markdown
+  **User:**
+  #{@comment.user_id}
+
+  **Blog:**
+  #{@comment.blog_id}
+
+  **Content:**
+  #{@comment.content}
+
+= link_to 'Edit', edit_comment_path(@comment)
+|
+= link_to 'Back', comments_path

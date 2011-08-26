@@ -1,0 +1,20 @@
+= render 'blogs/blog', :blog => @blog, :long => true
+= link_to "New comment", "#", :id => "new_comment_link"
+%br/
+= render 'comments/form'
+%br/
+== There is #{@blog.comments.count} comment on this article:
+%span#comments
+  = render 'comments/comments', :blog => @blog
+:javascript
+  $("#new_comment_cont").hide();
+  $("#new_comment_link").click(function() {
+    if ($("#new_comment_cont").is(':visible')) {
+      $("#new_comment_link").text("New comment");
+      $("#new_comment_cont").hide();
+    }
+    else {
+      $("#new_comment_link_cont").text("Cancel");
+      $("#new_comment_cont").show();
+    }
+  });

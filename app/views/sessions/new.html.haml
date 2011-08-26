@@ -1,0 +1,21 @@
+%h2 Sign in
+
+= form_for :session, :url => session_path do |form|
+  %div.text_field
+    = form.label :email
+    = form.text_field :email, :type => "email"
+  %div.text_field
+    = form.label :password
+    = form.password_field :password
+  %div.text_field
+    = form.label :oa_token, "OpenAuthenticator token"
+    = form.text_field :oa_token
+    %br/ 
+    == (if you don't know what #{link_to 'OpenAuthenticator', 'http://said.elhu.me', :target => :blank} is, please leave blank)
+  %div.submit_field
+    = form.submit "Sign in"
+%ul
+  %li
+    = link_to "Sign up", sign_up_path
+  %li
+    = link_to "Forgot password?", new_password_path

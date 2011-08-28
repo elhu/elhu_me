@@ -24,6 +24,9 @@ gem 'uglifier'
 gem 'haml'
 gem 'maruku'
 
+#gem 'guard'
+#gem 'guard-rspec'
+
 gem 'execjs'
 gem 'therubyracer'
 

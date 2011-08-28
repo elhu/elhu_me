@@ -1,26 +1,26 @@
 %article
   %h2= @title.capitalize
-  = image_tag "email.png", :title => "Email", :class => "contact"
+  = image_tag "/assets/email.png", :title => "Email", :class => "contact"
   <strong>Email:</strong>
   = mail_to "boisard.v@gmail.com"
   %br/
 
-  = image_tag "twitter.png", :title => "Twitter", :class => "contact"
+  = image_tag "/assets/twitter.png", :title => "Twitter", :class => "contact"
   <strong>Twitter:</strong>
   = link_to "@elhu", "http://twitter.com/#!/Elhu", :target => "_blank"
   %br/
 
-  = image_tag "linkedin.png", :title => "LinkedIn", :class => "contact"
+  = image_tag "/assets/linkedin.png", :title => "LinkedIn", :class => "contact"
   <strong>LinkedIn:</strong>
   = link_to "Vincent Boisard", "http://fr.linkedin.com/pub/vincent-boisard/7/685/432", :target => "_blank"
   %br/
 
-  = image_tag "skype.png", :title => "Skype", :class => "contact"
+  = image_tag "/assets/skype.png", :title => "Skype", :class => "contact"
   <strong>Skype:</strong> 
   = link_to "vincent.boisard", "skype:vincent.boisard"
   %br/
 
-  = image_tag "github.png", :title => "GitGHub", :class => "contact"
+  = image_tag "/assets/github.png", :title => "GitGHub", :class => "contact"
   <strong>GitHub:</strong>
   = link_to "elhu", "https://github.com/elhu", :target => "_blank"
   %br/

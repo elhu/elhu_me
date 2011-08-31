@@ -1,0 +1,550 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+
+/* Created by http://freehtml5templates.com */
+/* reset */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article {
+  display: block; }
+
+body {
+  line-height: 1;
+  background: white url(/assets/bg1.gif) repeat;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #666;
+  font-size: 14px;
+  line-height: 18px; }
+
+/* layout */
+#wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 2px 2px 7px #555;
+  -moz-box-shadow: 2px 2px 7px #555; }
+
+nav {
+  width: 1024px;
+  height: 50px;
+  margin: 0 auto;
+  background: white; }
+
+header {
+  width: 1024px;
+  height: 200px;
+  margin: 0 auto;
+  background: white url(/assets/headerimg.jpg) repeat-x left top; }
+
+#main {
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 20px;
+  background: white;
+  overflow: hidden; }
+
+#content {
+  float: left;
+  width: 750px;
+  margin-left: 20px; }
+
+#sidebar1 {
+  float: left;
+  padding-left: 20px;
+  width: 180px; }
+
+#sidebar2 {
+  float: right;
+  padding-right: 30px;
+  width: 180px; }
+
+footer {
+  width: 1024px;
+  margin: 0 auto;
+  clear: both; }
+
+/* basics */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  clear: both;
+  color: #333; }
+
+a:link, a:visited {
+  color: #577695;
+  text-decoration: none; }
+a:hover, a:active {
+  color: #333;
+  text-decoration: underline; }
+
+p {
+  margin-bottom: 18px; }
+
+li {
+  padding-left: 5px;
+  list-style: none; }
+
+/* nav */
+nav .menu {
+  font-size: 14px;
+  font-weight: bold; }
+  nav .menu ul {
+    margin: 0;
+    padding: 17px 0 0 20px;
+    list-style: none;
+    line-height: normal; }
+  nav .menu li {
+    display: block;
+    float: left; }
+    nav .menu li.auth {
+      display: block;
+      float: right; }
+  nav .menu a {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #bbb; }
+    nav .menu a:hover {
+      text-decoration: underline; }
+  nav .menu img.contact {
+    margin-top: -2px;
+    margin-right: -25px; }
+
+/** HEADER */
+header h1, header h2 {
+  margin: 0;
+  padding: 0 0 0 120px;
+  line-height: normal; }
+
+header h1 {
+  float: left;
+  padding-top: 20px;
+  font-family: Garamond, Georgia, Times, "Times New Roman", serif;
+  font-size: 60px; }
+  header h1 a:link, header h1 a:visited {
+    text-decoration: none;
+    color: #777; }
+  header h1 a:hover {
+    text-decoration: underline; }
+
+.shine {
+  color: #F1B814; }
+
+header h2 {
+  padding-top: 20px;
+  font-style: italic;
+  font-size: 14px;
+  color: #aaa; }
+
+/** ARTICLES **/
+.portfolio {
+  margin-top: -15px;
+  margin-bottom: 15px;
+  width: 300px; }
+
+article {
+  margin-left: 15px;
+  text-align: justify; }
+
+#content {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #EEEEEE;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+
+hr {
+  color: #EEEEEE; }
+
+article img {
+  border: none;
+  -webkit-box-shadow: 3px 3px 7px #777;
+  -moz-box-shadow: 3px 3px 7px #777; }
+article img.contact {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  margin-right: 2px; }
+
+#content p, #content ul, #content ol, #content hr {
+  margin-bottom: 24px; }
+#content ul ul, #content ol ol, #content ul ol, #content ol ul {
+  margin-bottom: 0; }
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+  color: #333;
+  margin: 0 0 20px 0;
+  line-height: 1.5em;
+  text-shadow: 0px 2px 3px #ddd; }
+
+.alignleft, img.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 24px;
+  margin-top: 4px; }
+
+.alignright, img.alignright {
+  display: inline;
+  float: right;
+  margin-left: 24px;
+  margin-top: 4px; }
+
+.aligncenter, img.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+img.alignleft, img.alignright, img.aligncenter {
+  margin-bottom: 12px; }
+
+/* sidebar and footer widget blocks */
+.tweet {
+  border-bottom: 1px #ddd dotted; }
+
+.asidebox {
+  width: 180px;
+  border-image: url("/assets/boxborder.gif") 27 27 27 27 round round;
+  border: 10px solid #eee;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+
+aside h3 {
+  font-size: 18px;
+  text-shadow: 0px 2px 3px #ddd;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  color: #777;
+  border-bottom: 1px #ddd dotted; }
+aside ul {
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: -15px;
+  padding-left: 10px; }
+
+#footer-area {
+  background: #eee;
+  color: white;
+  font-size: 90%;
+  padding: 18px 0;
+  overflow: hidden; }
+
+.footer-segment {
+  float: right;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 190px; }
+
+footer aside h4 {
+  color: #777;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-shadow: 0px 2px 3px #ddd;
+  margin-bottom: 20px; }
+footer a:link, footer a:visited {
+  color: #577695; }
+footer a:hover {
+  text-decoration: underline; }
+footer p {
+  margin-top: -15px;
+  color: #333; }
+footer ul {
+  color: #42424f; }
+
+.markItUp {
+  width: 400px; }
+
+/* form validation */
+.field_with_errors {
+  display: inline; }
+
+.field_with_errors .message {
+  color: #D00;
+  padding-left: 5px;
+  font-size: 12px; }
+.hll { background-color: #ffffcc }
+.c { color: #408080; font-style: italic } /* Comment */
+.err { border: 1px solid #FF0000 } /* Error */
+.k { color: #008000; font-weight: bold } /* Keyword */
+.o { color: #666666 } /* Operator */
+.cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.cp { color: #BC7A00 } /* Comment.Preproc */
+.c1 { color: #408080; font-style: italic } /* Comment.Single */
+.cs { color: #408080; font-style: italic } /* Comment.Special */
+.gd { color: #A00000 } /* Generic.Deleted */
+.ge { font-style: italic } /* Generic.Emph */
+.gr { color: #FF0000 } /* Generic.Error */
+.gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.gi { color: #00A000 } /* Generic.Inserted */
+.go { color: #808080 } /* Generic.Output */
+.gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.gs { font-weight: bold } /* Generic.Strong */
+.gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.gt { color: #0040D0 } /* Generic.Traceback */
+.kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.kp { color: #008000 } /* Keyword.Pseudo */
+.kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.kt { color: #B00040 } /* Keyword.Type */
+.m { color: #666666 } /* Literal.Number */
+.s { color: #BA2121 } /* Literal.String */
+.na { color: #7D9029 } /* Name.Attribute */
+.nb { color: #008000 } /* Name.Builtin */
+.nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.no { color: #880000 } /* Name.Constant */
+.nd { color: #AA22FF } /* Name.Decorator */
+.ni { color: #999999; font-weight: bold } /* Name.Entity */
+.ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.nf { color: #0000FF } /* Name.Function */
+.nl { color: #A0A000 } /* Name.Label */
+.nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.nt { color: #008000; font-weight: bold } /* Name.Tag */
+.nv { color: #19177C } /* Name.Variable */
+.ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.w { color: #bbbbbb } /* Text.Whitespace */
+.mf { color: #666666 } /* Literal.Number.Float */
+.mh { color: #666666 } /* Literal.Number.Hex */
+.mi { color: #666666 } /* Literal.Number.Integer */
+.mo { color: #666666 } /* Literal.Number.Oct */
+.sb { color: #BA2121 } /* Literal.String.Backtick */
+.sc { color: #BA2121 } /* Literal.String.Char */
+.sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.s2 { color: #BA2121 } /* Literal.String.Double */
+.se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.sh { color: #BA2121 } /* Literal.String.Heredoc */
+.si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.sx { color: #008000 } /* Literal.String.Other */
+.sr { color: #BB6688 } /* Literal.String.Regex */
+.s1 { color: #BA2121 } /* Literal.String.Single */
+.ss { color: #19177C } /* Literal.String.Symbol */
+.bp { color: #008000 } /* Name.Builtin.Pseudo */
+.vc { color: #19177C } /* Name.Variable.Class */
+.vg { color: #19177C } /* Name.Variable.Global */
+.vi { color: #19177C } /* Name.Variable.Instance */
+.il { color: #666666 } /* Literal.Number.Integer.Long */
+.highlight { 
+    background-color: #F3F3F3; 
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #CBCBCB; 
+    padding-left: 10px; 
+    margin-top: -10px; 
+    font-family: 'Menlo', 'Courier New', 'Terminal', monospace;
+}
+/* -------------------------------------------------------------------
+// markItUp! Universal MarkUp Engine, JQuery plugin
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+
+.markItUp * {
+	margin:0px; padding:0px;
+	outline:none;
+}
+.markItUp a:link,
+.markItUp a:visited {
+	color:#000;
+	text-decoration:none;
+}
+.markItUp  {
+	width:700px;
+	margin:5px 0 5px 0;
+	border:5px solid #F5F5F5;	
+}
+.markItUpContainer  {
+	border:1px solid #3C769D;	
+	background:#FFF url(images/bg-container.png) repeat-x top left;
+	padding:5px 5px 2px 5px;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+}
+.markItUpEditor {
+	font:12px 'Courier New', Courier, monospace;
+	padding:5px 5px 5px 35px;
+	border:3px solid #3C769D;
+	width:643px;
+	height:320px;
+	background:#FFF url(images/bg-editor.png) no-repeat;
+	clear:both;
+	line-height:18px;
+	overflow:auto;
+}
+.markItUpPreviewFrame	{
+	overflow:auto;
+	background-color:#FFFFFF;
+	border:1px solid #3C769D;
+	width:99.9%;
+	height:300px;
+	margin:5px 0;
+}
+.markItUpFooter {
+	width:100%;
+	cursor:n-resize;
+}
+.markItUpResizeHandle {
+	overflow:hidden;
+	width:22px; height:5px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(images/handle.png);
+	cursor:n-resize;
+}
+/***************************************************************************************/
+/* first row of buttons */
+.markItUpHeader ul li	{
+	list-style:none;
+	float:left;
+	position:relative;
+}
+.markItUpHeader ul li ul{
+	display:none;
+}
+.markItUpHeader ul li:hover > ul{
+	display:block;
+}
+.markItUpHeader ul .markItUpDropMenu {
+	background:transparent url(images/menu.png) no-repeat 115% 50%;
+	margin-right:5px;
+}
+.markItUpHeader ul .markItUpDropMenu li {
+	margin-right:0px;
+}
+.markItUpHeader ul .markItUpSeparator {
+	margin:0 10px;
+	width:1px;
+	height:16px;
+	overflow:hidden;
+	background-color:#CCC;
+}
+.markItUpHeader ul ul .markItUpSeparator {
+	width:auto; height:1px;
+	margin:0px;
+}
+/* next rows of buttons */
+.markItUpHeader ul ul {
+	display:none;
+	position:absolute;
+	top:18px; left:0px;	
+	background:#F5F5F5;
+	border:1px solid #3C769D;
+	height:inherit;
+}
+.markItUpHeader ul ul li {
+	float:none;
+	border-bottom:1px solid #3C769D;
+}
+.markItUpHeader ul ul .markItUpDropMenu {
+	background:#F5F5F5 url(images/submenu.png) no-repeat 100% 50%;
+}
+/* next rows of buttons */
+.markItUpHeader ul ul ul {
+	position:absolute;
+	top:-1px; left:150px;
+}
+.markItUpHeader ul ul ul li {
+	float:none;
+}
+.markItUpHeader ul a {
+	display:block;
+	width:16px; height:16px;
+	text-indent:-10000px;
+	background-repeat:no-repeat;
+	padding:3px;
+	margin:0px;
+}
+.markItUpHeader ul ul a {
+	display:block;
+	padding-left:0px;
+	text-indent:0;
+	width:120px; 
+	padding:5px 5px 5px 25px;
+	background-position:2px 50%;
+}
+.markItUpHeader ul ul a:hover  {
+	color:#FFF;
+	background-color:#3C769D;
+}
+/***************************************************************************************/
+.html .markItUpEditor {
+	background-image:url(images/bg-editor-html.png);
+}
+.markdown .markItUpEditor {
+	background-image:url(images/bg-editor-markdown.png);
+}
+.textile .markItUpEditor {
+	background-image:url(images/bg-editor-textile.png);
+}
+.bbcode .markItUpEditor {
+	background-image:url(images/bg-editor-bbcode.png);
+}
+.wiki .markItUpEditor,
+.dotclear .markItUpEditor {
+	background-image:url(images/bg-editor-wiki.png);
+}
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+
+.markItUp .markItUpButton1 a {
+	background-image:url(images/h1.png); 
+}
+.markItUp .markItUpButton2 a {
+	background-image:url(images/h2.png); 
+}
+.markItUp .markItUpButton3 a {
+	background-image:url(images/h3.png); 
+}
+.markItUp .markItUpButton4 a {
+	background-image:url(images/h4.png); 
+}
+.markItUp .markItUpButton5 a {
+	background-image:url(images/h5.png); 
+}
+.markItUp .markItUpButton6 a {
+	background-image:url(images/h6.png); 
+}
+
+.markItUp .markItUpButton7 a {
+	background-image:url(images/bold.png);
+}
+.markItUp .markItUpButton8 a {
+	background-image:url(images/italic.png);
+}
+
+.markItUp .markItUpButton9 a {
+	background-image:url(images/list-bullet.png);
+}
+.markItUp .markItUpButton10 a {
+	background-image:url(images/list-numeric.png);
+}
+
+.markItUp .markItUpButton11 a {
+	background-image:url(images/picture.png); 
+}
+.markItUp .markItUpButton12 a {
+	background-image:url(images/link.png);
+}
+
+.markItUp .markItUpButton13 a	{
+	background-image:url(images/quotes.png);
+}
+.markItUp .markItUpButton14 a	{
+	background-image:url(images/code.png);
+}
+
+.markItUp .preview a {
+	background-image:url(images/preview.png);
+}

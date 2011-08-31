@@ -6,3 +6,4 @@ tmp/
 #*
 .idea
 .idea/*
+config/initializers/setup_mail.rb

@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc5'
+gem 'rails', '3.1.0'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'jquery-rails'
 gem 'heroku'
@@ -15,6 +15,8 @@ gem 'slug'
 gem 'client_side_validations'
 gem 'mysql2'
 gem 'meta-tags', :require => 'meta_tags'
+
+gem 'gmail_sender'
 
 # Rails 3.1 - Asset Pipeline
 gem 'json'
@@ -31,11 +33,11 @@ gem 'execjs'
 gem 'therubyracer'
 
 group :development do
-      gem 'rspec-rails'
-      gem 'annotate-models'
+  gem 'rspec-rails'
+  # gem 'annotate-models'
 end
 
 group :test do
-      gem 'rspec'
-      gem 'webrat'
+	gem 'rspec'
+	gem 'webrat'
 end

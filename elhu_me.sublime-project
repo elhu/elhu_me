@@ -11,6 +11,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.haml",
+			"settings":
+			{
+				"buffer_size": 1436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/stylesheets/style.css.scss",
+			"settings":
+			{
+				"buffer_size": 5868,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/elhu/workspace/rails_projects/elhu_me/config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 1956,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -35,6 +59,21 @@
 	},
 	"file_history":
 	[
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/mailers/clearance_mailer.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_header.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/about.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.haml",
+		"/home/elhu/workspace/rails_projects/elhu_me/Gemfile",
+		"/home/elhu/workspace/rails_projects/elhu_me/config/application.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/config/environments/development.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/config/initializers/setup_mail.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/config/initializers/clearance.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/config/environments/test.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/config/environments/production.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/config/environment.rb",
+		"/home/elhu/workspace/rails_projects/elhu_me/.gitignore",
+		"/home/elhu/workspace/rails_projects/elhu_me/app/assets/stylesheets/style.css.scss",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/sessions/new.html.erb",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/sessions/new.html.haml",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/comments/show.html.haml",
@@ -87,19 +126,13 @@
 		"/home/elhu/workspace/rails_projects/elhu_me/app/assets/javascripts/application.js",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/helpers/blogs_helper.rb",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/helpers/application_helper.rb",
-		"/home/elhu/workspace/rails_projects/elhu_me/Gemfile",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.haml",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/home.html.haml",
-		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.haml",
-		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/about.html.haml",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/portfolio.html.erb",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/contact.html.erb",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/home.html.erb",
-		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_header.html.haml",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_title.html.haml",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/pages/about.html.erb",
-		"/home/elhu/workspace/rails_projects/elhu_me/app/assets/stylesheets/style.css.scss",
-		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.haml",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_right_panel.html.haml",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_footer.html.haml",
 		"/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.erb",
@@ -153,16 +186,7 @@
 		"/home/elhu/workspace/rails_projects/BAD/app/views/table_field/edit.js.erb",
 		"/home/elhu/workspace/rails_projects/BAD/app/views/application_table/_show.js.erb",
 		"/home/elhu/workspace/rails_projects/BAD/app/views/application_table/edit.js.erb",
-		"/home/elhu/workspace/rails_projects/BAD/app/views/application_table/show.js.erb",
-		"/home/elhu/workspace/rails_projects/BAD/app/views/table_field/show.html.erb",
-		"/home/elhu/workspace/rails_projects/BAD/tmp/metric_fu/scratch/rcov/rcov.txt",
-		"/home/elhu/workspace/rails_projects/BAD/app/views/application_table/update.js.erb",
-		"/home/elhu/workspace/rails_projects/BAD/app/controllers/table_fields_controller.rb",
-		"/home/elhu/workspace/rails_projects/BAD/app/views/layouts/_nav.html.erb",
-		"/home/elhu/workspace/rails_projects/BAD/app/controllers/users_controller.rb",
-		"/home/elhu/workspace/rails_projects/BAD/public/javascripts/jquery/ui.checkbox.js",
-		"/home/elhu/workspace/rails_projects/BAD/app/views/application_table/_edit.html.erb",
-		"/home/elhu/workspace/rails_projects/BAD/tmp/metric_fu/scratch/saikuro/app/views/layouts/_nav.html.erb_cyclo.html"
+		"/home/elhu/workspace/rails_projects/BAD/app/views/application_table/show.js.erb"
 	],
 	"find":
 	{
@@ -187,6 +211,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"boisard.v@gmail.com",
+			"ActionMailer::Base.smtp_settings = {  \n  :address              => \"smtp.gmail.com\",  \n  :port                 => 587,\n  :domain               => \"gmail.com\",  \n  :user_name            => \"boisard.v@gmail.com\",  \n  :password             => \"c}qn+H*j\",  \n  :authentication       => \"plain\",  \n  :enable_starttls_auto => true  \n}",
 			"<br />",
 			" </strong>",
 			"<strong>",
@@ -247,8 +273,93 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/views/layouts/_menu.html.haml",
+					"settings":
+					{
+						"buffer_size": 1436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								949,
+								949
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/app/assets/stylesheets/style.css.scss",
+					"settings":
+					{
+						"buffer_size": 5868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/elhu/workspace/rails_projects/elhu_me/config/environments/production.rb",
+					"settings":
+					{
+						"buffer_size": 1956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -283,6 +394,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 116
+	},
 	"replace":
 	{
 		"height": 62
@@ -294,16 +409,88 @@
 		"selected_items":
 		[
 			[
+				"produ",
+				"config/environments/production.rb"
+			],
+			[
+				"sty",
+				"app/assets/stylesheets/style.css.scss"
+			],
+			[
+				"men",
+				"app/views/layouts/_menu.html.haml"
+			],
+			[
+				"envi",
+				"config/environment.rb"
+			],
+			[
+				"app/mai",
+				"app/mailers/clearance_mailer.rb"
+			],
+			[
+				"prod",
+				"config/environments/production.rb"
+			],
+			[
+				"test",
+				"config/environments/test.rb"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"conf/initi/cl",
+				"config/initializers/clearance.rb"
+			],
+			[
+				"mail",
+				"app/mailers/clearance_mailer.rb"
+			],
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"about",
+				"app/views/pages/about.html.haml"
+			],
+			[
+				"conta",
+				"app/views/pages/contact.html.haml"
+			],
+			[
+				"css",
+				"app/assets/stylesheets/style.css.scss"
+			],
+			[
+				"pr",
+				"config/environments/production.rb"
+			],
+			[
+				"_hea",
+				"app/views/layouts/_header.html.haml"
+			],
+			[
+				"_men",
+				"app/views/layouts/_menu.html.haml"
+			],
+			[
 				"sess/",
 				"app/views/sessions/new.html.erb"
 			],
 			[
 				"comments/",
 				"app/views/comments/show.html.erb"
-			],
-			[
-				"appli",
-				"app/views/layouts/application.html.haml"
 			],
 			[
 				"catego",
@@ -366,28 +553,12 @@
 				"app/views/layouts/_title.html.haml"
 			],
 			[
-				"_hea",
-				"app/views/layouts/_header.html.haml"
-			],
-			[
-				"gem",
-				"Gemfile"
-			],
-			[
 				"pages/",
 				"app/views/pages/portfolio.html.erb"
 			],
 			[
 				"views/pages/",
 				"app/views/pages/about.html.erb"
-			],
-			[
-				"css",
-				"app/assets/stylesheets/style.css.scss"
-			],
-			[
-				"men",
-				"app/views/layouts/_menu.html.haml"
 			],
 			[
 				"layo",
@@ -464,10 +635,6 @@
 			[
 				"style",
 				"app/assets/stylesheets/style.css.scss"
-			],
-			[
-				"_men",
-				"app/views/layouts/_menu.html.erb"
 			],
 			[
 				"_nav",
@@ -752,58 +919,6 @@
 			[
 				"show.t",
 				"app/views/applications/show.html.erb"
-			],
-			[
-				"application_c",
-				"app/controllers/application_controller.rb"
-			],
-			[
-				"_edit",
-				"app/views/application_table/edit.js.erb"
-			],
-			[
-				"application_tabl",
-				"app/controllers/application_table_controller.rb"
-			],
-			[
-				"up",
-				"app/views/application_table/update.js.erb"
-			],
-			[
-				"_",
-				"app/views/application_table/_show.js.erb"
-			],
-			[
-				"ui.",
-				"public/javascripts/jquery/ui.checkbox.js"
-			],
-			[
-				"edit",
-				"app/views/application_table/edit.js.erb"
-			],
-			[
-				"screen",
-				"public/stylesheets/screen.css"
-			],
-			[
-				"show.ht",
-				"app/views/applications/show.html.erb"
-			],
-			[
-				"_sho",
-				"app/views/application_table/_show.html.erb"
-			],
-			[
-				"applications_contr",
-				"app/controllers/applications_controller.rb"
-			],
-			[
-				"application_co",
-				"app/controllers/application_controller.rb"
-			],
-			[
-				"nav.",
-				"app/views/layouts/_nav.html.erb"
 			]
 		],
 		"width": 0

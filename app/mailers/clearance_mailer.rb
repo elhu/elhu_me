@@ -1,3 +1,12 @@
 class ClearanceMailer < ActionMailer::Base
-  default :from => "from@example.com"
+  default :from => "noreply@elhu.me"
+
+  def change_password(user)
+	  @user = user
+	  mail :from    => Clearance.configuration.mailer_sender,
+	       :to      => @user.email,
+	       :subject => I18n.t(:change_password,
+	                         :scope   => [:clearance, :models, :clearance_mailer],
+	                         :default => "Change your password")
+  end
 end

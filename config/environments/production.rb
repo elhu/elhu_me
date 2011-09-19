@@ -51,4 +51,8 @@ ElhuMe::Application.configure do
   # config.assets.css_compressor = :scss
 
   config.action_mailer.default_url_options = { :host => 'elhu.me' }
+
+  config.assets.compress = true
+  config.assets.compile = false
+  config.assets.digest = true
 end

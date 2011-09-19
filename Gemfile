@@ -16,7 +16,6 @@ gem 'client_side_validations'
 gem 'mysql2'
 gem 'meta-tags', :require => 'meta_tags'
 
-gem 'gmail_sender'
 
 # Rails 3.1 - Asset Pipeline
 gem 'json'

@@ -1,4 +1,4 @@
-%nav>
+%nav
   %div.menu
     %ul
       %li= link_to "Home", root_path
@@ -7,7 +7,7 @@
       %li= link_to "About", about_path
       %li= link_to "Contact", contact_path
       %li
-        = mail_to "boisard.v@gmail.com", image_tag("email.png", :title => "Email", :class => "contact"), :target => :blank
+        = mail_to "boisard.v@gmail.com", "", {:target => :blank, :class => [:email, :contact]}
         = link_to image_tag("twitter.png", :title => "Twitter", :class => "contact"), "http://twitter.com/#!/Elhu", :target => :blank
         = link_to image_tag("linkedin.png", :title => "LinkedIn", :class => "contact"), "http://www.linkedin.com/profile/view?id=22570022&trk=tab_pro", :target => :blank
         = link_to image_tag("skype.png", :title => "Skype", :class => "contact"), "skype:vincent.boisard", :target => :blank
